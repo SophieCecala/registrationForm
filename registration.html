@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>REGISTRATION</h1>
+    <div class="forms">
+    <form>
+        <label>
+            Login
+            <input name="text" pattern="^([-_a-zA-Z0-9]){5,30}$" placeholder="myname1" required />
+        </label>
+    </form>
+    <form>
+        <label>
+            E-mail
+            <input name="text" placeholder="sitehere.ru@my.com" required />
+        </label>
+    </form>
+    <form>
+        <label>
+            Password
+            <input name="text" placeholder="123456" required />
+        </label>
+    </form>
+    <form>
+        <label>
+            Confirm password
+            <input name="text" placeholder="123456" required />
+        </label>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Sex</legend>
+            <label><input type="radio" name="radio"> M</label>
+            <label><input type="radio" name="radio"> W</label>
+        </fieldset>
+    </form>
+    <form>
+    <select name="country">
+        <option> italy</option>
+        <option> France</option>
+        <option> Spain</option>
+        <option> Portugal</option>
+        <option> United kindom</option>
+        <option> Russia</option>
+        <option> </option>
+    </form>
+
+    </select>
+
+    <button>Registration</button>
+    </div>
+</body>
+</html>

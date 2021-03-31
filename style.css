@@ -1,0 +1,50 @@
+body{
+    background: rgb(247,247,247);
+    border: 1px solid rgba(147,184,189,0.8);
+    box-shadow: 0 0 8px 5px rgba(2008,223,226,0.4);
+    border-radius: 5px;
+
+
+
+}
+h1{
+    font-size: 50px;
+    color: #008799;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input:not([type="radio"]){
+    margin: 1px;
+    padding: 5px;
+    display: block;
+}
+input{
+    outline: none;
+
+}
+.forms{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #008a9d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    color: #ddd;
+    font-size: 10px;
+}
+label{
+    padding-left: 20px;
+}
+fieldset{
+    background-color: #ffffff;
+}
